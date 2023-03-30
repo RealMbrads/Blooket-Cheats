@@ -14,8 +14,8 @@
 
                 alert('Fossils added!');
             } catch (e) {
-                if (confirm('Game error occured please report to discord server as soon as possible')) {
-                    window.open('https://discord.gg/Nj9Zs5VtFp');
+                if (confirm('Game error occured!')) {
+                    window.open('Game error occured!');
                 };
             };
 })();
