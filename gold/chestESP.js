@@ -35,8 +35,8 @@
                                 border-color: black;
                                 margin-top: 200px;`
                             try { choiceDiv.children[i].appendChild(textElement); } catch (e) {
-                                if (confirm('An error occured, would you like to report this in the support discord server?')) {
-                                    window.open('https://glizzers.xyz/discord');
+                                if (confirm('An error occured!')) {
+                                    window.open('An error occured!');
                                 };
                             };
                         });
